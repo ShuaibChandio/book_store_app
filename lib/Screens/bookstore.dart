@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'book_detail.dart';
 import '../constants.dart';
+import 'cart_Screen.dart';
 
 class Bookstore extends StatefulWidget {
   @override
@@ -56,10 +57,10 @@ class _BookstoreState extends State<Bookstore> {
               right: 16,
             ),
             child: IconButton(onPressed: (){
-
+              Navigator.of(context).push(MaterialPageRoute(builder: (_)=>CartPage()));
             }, icon: Icon(
               Icons.shopping_cart_outlined,
-              color: Colors.grey[400],
+              color: kPrimaryColor,
               size: 28,
             )),
           ),

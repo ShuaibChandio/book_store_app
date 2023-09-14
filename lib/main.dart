@@ -1,5 +1,8 @@
 import 'package:book_store_app/Screens/bookstore.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'Models/cart_Model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,16 +14,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ChangeNotifierProvider(
+        create: (context) => CartModel(),
+    child: MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Bookstore(),
+    home: Bookstore(),
+    )
     );
-    // return ChangeNotifierProvider(
-    //     create: (context) => CartModel(),
-    // child: MaterialApp(
-    //   debugShowCheckedModeBanner: false,
-    // home: BookstoreApp(),
-    // )
-    // );
   }
 }
