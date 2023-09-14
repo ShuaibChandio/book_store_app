@@ -38,7 +38,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/an_anonymous_girl_by_greer_hendricks.jpg",
-      50
+      25
     ),
     Book(
       "The Water Cure",
@@ -62,7 +62,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_dreamers_by_karen_thompson.jpg",
-        50
+        45
     ),
     Book(
       "Maid",
@@ -74,7 +74,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/maid_by_stepanie_land.jpg",
-        50
+        35
     ),
     Book(
       "The Suspect",
@@ -86,7 +86,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_suspect_by_fiona_barton.jpg",
-        50
+        59
     ),
     Book(
       "The Lost Girls of Paris",
@@ -98,7 +98,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_lost_girls_of_paris_by_pam_jenoff.jpg",
-        50
+        47
     ),
     Book(
       "The Age of Light",
@@ -110,7 +110,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_age_of_light_by_whitney_scharer.jpg",
-        50
+        32
     ),
     Book(
       "The Last Romantics",
@@ -122,7 +122,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_last_romantics_by_tara_conklin.jpg",
-        50
+        87
     ),
     Book(
       "The Night Tiger",
@@ -134,7 +134,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_night_tiger_by_yangsze_choo.jpg",
-        50
+        90
     ),
     Book(
       "The Lost Night",
@@ -146,7 +146,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/the_lost_night_by_andrea_bartz.jpg",
-        50
+        96
     ),
     Book(
       "You Know You Want This",
@@ -158,7 +158,7 @@ List<Book> getBookList() {
       ),
       "4.14",
       "assets/books/you_know_you_want_this_by_kristen_roupenian.jpg",
-        50
+        49
     ),
   ];
 }
