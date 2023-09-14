@@ -1,4 +1,4 @@
-import 'package:book_store_app/Data/bookstore.dart';
+import 'package:book_store_app/Screens/bookstore.dart';
 import 'package:flutter/material.dart';
 
 void main() {

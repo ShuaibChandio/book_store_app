@@ -1,5 +1,5 @@
+import 'package:book_store_app/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:book_store_app/Data/constants.dart';
 import 'package:book_store_app/Data/data.dart';
 import 'package:flutter/material.dart';
 

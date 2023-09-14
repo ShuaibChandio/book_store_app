@@ -1,12 +1,9 @@
+import 'package:book_store_app/Data/data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-// import 'package:google_fonts/google_fonts.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'book_detail.dart';
-import 'constants.dart';
-import 'data.dart';
+import '../constants.dart';
 
 class Bookstore extends StatefulWidget {
   @override
